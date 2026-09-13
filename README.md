@@ -1,5 +1,7 @@
 # Sales Analytics & Data Warehouse Pipeline
 
+[![CI](https://github.com/Achintya-Narula/sales-data-warehouse/actions/workflows/ci.yml/badge.svg)](https://github.com/Achintya-Narula/sales-data-warehouse/actions/workflows/ci.yml)
+
 A SQL Server/T-SQL data engineering project demonstrating how transactional sales data can be staged, transformed into a dimensional warehouse, quality-checked, and exposed for analytical SQL and Power BI.
 
 ## Stack
