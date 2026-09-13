@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "checks_failed": 0,
+  "row_counts": {
+    "customers": 500,
+    "products": 60,
+    "sales": 5000
+  },
+  "checks": [
+    {
+      "name": "customer_id_unique",
+      "passed": true,
+      "detail": "Customer natural key is unique"
+    },
+    {
+      "name": "product_id_unique",
+      "passed": true,
+      "detail": "Product natural key is unique"
+    },
+    {
+      "name": "sale_id_unique",
+      "passed": true,
+      "detail": "Sale natural key is unique"
+    },
+    {
+      "name": "customers_required_not_null",
+      "passed": true,
+      "detail": "Required customers fields contain no nulls"
+    },
+    {
+      "name": "products_required_not_null",
+      "passed": true,
+      "detail": "Required products fields contain no nulls"
+    },
+    {
+      "name": "sales_required_not_null",
+      "passed": true,
+      "detail": "Required sales fields contain no nulls"
+    },
+    {
+      "name": "sales_customer_fk",
+      "passed": true,
+      "detail": "Orphan customer rows: 0"
+    },
+    {
+      "name": "sales_product_fk",
+      "passed": true,
+      "detail": "Orphan product rows: 0"
+    },
+    {
+      "name": "positive_quantity",
+      "passed": true,
+      "detail": "All quantities are greater than zero"
+    },
+    {
+      "name": "positive_unit_price",
+      "passed": true,
+      "detail": "All unit prices are greater than zero"
+    },
+    {
+      "name": "discount_range",
+      "passed": true,
+      "detail": "Discounts stay between 0% and 50%"
+    },
+    {
+      "name": "net_amount_math",
+      "passed": true,
+      "detail": "Net amount equals quantity \u00d7 price \u00d7 (1 - discount)"
+    },
+    {
+      "name": "sale_date_range",
+      "passed": true,
+      "detail": "Sale dates are valid and within the demo warehouse range"
+    }
+  ]
+}

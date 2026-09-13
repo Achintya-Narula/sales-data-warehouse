@@ -1,0 +1,61 @@
+product_id,product_name,category,unit_price,active_flag
+2001,Product 001,Electronics,2873.46,1
+2002,Product 002,Office Supplies,175.29,1
+2003,Product 003,Electronics,3232.31,1
+2004,Product 004,Electronics,3195.85,1
+2005,Product 005,Accessories,1163.47,1
+2006,Product 006,Office Supplies,599.64,1
+2007,Product 007,Home,1690.84,1
+2008,Product 008,Office Supplies,386.95,1
+2009,Product 009,Accessories,1022.26,1
+2010,Product 010,Office Supplies,383.48,0
+2011,Product 011,Accessories,899.65,0
+2012,Product 012,Accessories,1148.51,1
+2013,Product 013,Office Supplies,379.72,1
+2014,Product 014,Home,1960.94,1
+2015,Product 015,Office Supplies,535.35,0
+2016,Product 016,Electronics,2344.51,1
+2017,Product 017,Accessories,1145.42,1
+2018,Product 018,Home,1912.96,1
+2019,Product 019,Electronics,3291.33,1
+2020,Product 020,Office Supplies,353.95,1
+2021,Product 021,Home,1215.08,1
+2022,Product 022,Accessories,764.51,1
+2023,Product 023,Home,1843.08,1
+2024,Product 024,Office Supplies,329.59,1
+2025,Product 025,Accessories,1010.25,1
+2026,Product 026,Office Supplies,293.54,1
+2027,Product 027,Home,1508.58,1
+2028,Product 028,Office Supplies,463.82,1
+2029,Product 029,Accessories,1516.17,1
+2030,Product 030,Office Supplies,276.46,1
+2031,Product 031,Office Supplies,635.47,1
+2032,Product 032,Accessories,937.76,1
+2033,Product 033,Office Supplies,501.81,1
+2034,Product 034,Home,1653.02,1
+2035,Product 035,Office Supplies,506.04,1
+2036,Product 036,Accessories,861.27,1
+2037,Product 037,Office Supplies,633.21,1
+2038,Product 038,Office Supplies,392.48,1
+2039,Product 039,Office Supplies,592.66,1
+2040,Product 040,Electronics,2622.65,1
+2041,Product 041,Electronics,3146.01,1
+2042,Product 042,Accessories,629.87,1
+2043,Product 043,Accessories,1014.67,1
+2044,Product 044,Accessories,1264.17,1
+2045,Product 045,Electronics,3130.69,1
+2046,Product 046,Office Supplies,425.19,1
+2047,Product 047,Electronics,2201.3,1
+2048,Product 048,Accessories,842.22,1
+2049,Product 049,Home,886.43,1
+2050,Product 050,Electronics,2382.06,1
+2051,Product 051,Accessories,957.15,1
+2052,Product 052,Electronics,4381.84,1
+2053,Product 053,Electronics,5717.05,1
+2054,Product 054,Electronics,2674.42,1
+2055,Product 055,Electronics,4486.03,1
+2056,Product 056,Accessories,961.43,1
+2057,Product 057,Home,1532.24,1
+2058,Product 058,Electronics,3587.6,1
+2059,Product 059,Office Supplies,457.8,1
+2060,Product 060,Accessories,927.82,1

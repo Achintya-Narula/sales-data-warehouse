@@ -1,0 +1,501 @@
+customer_id,customer_name,city,state,segment,signup_date
+10001,Customer 0001,Chandigarh,Punjab,Corporate,2022-04-13
+10002,Customer 0002,Hyderabad,Telangana,Small Business,2023-08-10
+10003,Customer 0003,Bengaluru,Karnataka,Small Business,2024-05-16
+10004,Customer 0004,Delhi,Delhi,Consumer,2024-02-20
+10005,Customer 0005,Delhi,Delhi,Consumer,2022-09-04
+10006,Customer 0006,Hyderabad,Telangana,Corporate,2023-02-13
+10007,Customer 0007,Chandigarh,Punjab,Consumer,2023-04-23
+10008,Customer 0008,Bengaluru,Karnataka,Small Business,2022-08-12
+10009,Customer 0009,Ludhiana,Punjab,Consumer,2022-08-30
+10010,Customer 0010,Chandigarh,Punjab,Consumer,2022-08-01
+10011,Customer 0011,Pune,Maharashtra,Consumer,2024-06-14
+10012,Customer 0012,Kolkata,West Bengal,Small Business,2023-11-03
+10013,Customer 0013,Bengaluru,Karnataka,Consumer,2024-01-27
+10014,Customer 0014,Hyderabad,Telangana,Consumer,2024-01-05
+10015,Customer 0015,Bengaluru,Karnataka,Consumer,2024-05-13
+10016,Customer 0016,Hyderabad,Telangana,Consumer,2022-04-05
+10017,Customer 0017,Pune,Maharashtra,Consumer,2024-03-04
+10018,Customer 0018,Ludhiana,Punjab,Corporate,2022-03-01
+10019,Customer 0019,Hyderabad,Telangana,Consumer,2023-03-04
+10020,Customer 0020,Delhi,Delhi,Small Business,2023-06-19
+10021,Customer 0021,Pune,Maharashtra,Small Business,2022-11-19
+10022,Customer 0022,Jaipur,Rajasthan,Consumer,2022-05-12
+10023,Customer 0023,Ludhiana,Punjab,Consumer,2022-06-23
+10024,Customer 0024,Kolkata,West Bengal,Corporate,2024-01-13
+10025,Customer 0025,Hyderabad,Telangana,Consumer,2022-10-14
+10026,Customer 0026,Bengaluru,Karnataka,Consumer,2022-10-07
+10027,Customer 0027,Delhi,Delhi,Small Business,2024-04-11
+10028,Customer 0028,Hyderabad,Telangana,Small Business,2022-05-10
+10029,Customer 0029,Pune,Maharashtra,Corporate,2024-04-03
+10030,Customer 0030,Delhi,Delhi,Consumer,2024-04-08
+10031,Customer 0031,Delhi,Delhi,Corporate,2023-06-23
+10032,Customer 0032,Ludhiana,Punjab,Corporate,2022-05-29
+10033,Customer 0033,Chandigarh,Punjab,Consumer,2022-05-21
+10034,Customer 0034,Pune,Maharashtra,Corporate,2022-09-14
+10035,Customer 0035,Kolkata,West Bengal,Consumer,2023-06-04
+10036,Customer 0036,Chandigarh,Punjab,Consumer,2022-05-19
+10037,Customer 0037,Hyderabad,Telangana,Consumer,2023-02-15
+10038,Customer 0038,Hyderabad,Telangana,Consumer,2022-04-14
+10039,Customer 0039,Jaipur,Rajasthan,Consumer,2023-05-02
+10040,Customer 0040,Bengaluru,Karnataka,Small Business,2022-01-20
+10041,Customer 0041,Ludhiana,Punjab,Small Business,2023-10-01
+10042,Customer 0042,Hyderabad,Telangana,Consumer,2022-02-19
+10043,Customer 0043,Bengaluru,Karnataka,Small Business,2022-06-25
+10044,Customer 0044,Jaipur,Rajasthan,Small Business,2022-06-07
+10045,Customer 0045,Chandigarh,Punjab,Consumer,2024-01-18
+10046,Customer 0046,Kolkata,West Bengal,Consumer,2022-02-18
+10047,Customer 0047,Delhi,Delhi,Consumer,2023-01-22
+10048,Customer 0048,Kolkata,West Bengal,Consumer,2023-06-17
+10049,Customer 0049,Bengaluru,Karnataka,Corporate,2023-04-10
+10050,Customer 0050,Hyderabad,Telangana,Consumer,2023-09-05
+10051,Customer 0051,Hyderabad,Telangana,Consumer,2023-12-24
+10052,Customer 0052,Ludhiana,Punjab,Consumer,2022-12-21
+10053,Customer 0053,Jaipur,Rajasthan,Consumer,2024-01-16
+10054,Customer 0054,Delhi,Delhi,Small Business,2022-10-14
+10055,Customer 0055,Delhi,Delhi,Consumer,2024-06-04
+10056,Customer 0056,Chandigarh,Punjab,Consumer,2023-03-31
+10057,Customer 0057,Pune,Maharashtra,Consumer,2023-10-25
+10058,Customer 0058,Ludhiana,Punjab,Consumer,2024-02-27
+10059,Customer 0059,Bengaluru,Karnataka,Corporate,2023-12-15
+10060,Customer 0060,Bengaluru,Karnataka,Consumer,2024-02-06
+10061,Customer 0061,Kolkata,West Bengal,Consumer,2023-04-28
+10062,Customer 0062,Bengaluru,Karnataka,Consumer,2022-02-09
+10063,Customer 0063,Jaipur,Rajasthan,Small Business,2023-03-20
+10064,Customer 0064,Kolkata,West Bengal,Corporate,2022-06-13
+10065,Customer 0065,Delhi,Delhi,Corporate,2024-03-11
+10066,Customer 0066,Jaipur,Rajasthan,Corporate,2022-08-02
+10067,Customer 0067,Kolkata,West Bengal,Corporate,2022-07-25
+10068,Customer 0068,Jaipur,Rajasthan,Consumer,2022-08-13
+10069,Customer 0069,Chandigarh,Punjab,Consumer,2023-08-02
+10070,Customer 0070,Delhi,Delhi,Consumer,2023-05-30
+10071,Customer 0071,Hyderabad,Telangana,Consumer,2024-05-03
+10072,Customer 0072,Ludhiana,Punjab,Small Business,2023-01-10
+10073,Customer 0073,Delhi,Delhi,Consumer,2022-09-12
+10074,Customer 0074,Ludhiana,Punjab,Corporate,2022-02-14
+10075,Customer 0075,Bengaluru,Karnataka,Small Business,2022-01-07
+10076,Customer 0076,Delhi,Delhi,Consumer,2022-12-03
+10077,Customer 0077,Jaipur,Rajasthan,Small Business,2024-04-13
+10078,Customer 0078,Ludhiana,Punjab,Corporate,2023-04-17
+10079,Customer 0079,Pune,Maharashtra,Small Business,2024-03-15
+10080,Customer 0080,Bengaluru,Karnataka,Consumer,2022-04-02
+10081,Customer 0081,Kolkata,West Bengal,Consumer,2022-03-25
+10082,Customer 0082,Delhi,Delhi,Consumer,2024-01-21
+10083,Customer 0083,Ludhiana,Punjab,Consumer,2022-04-07
+10084,Customer 0084,Hyderabad,Telangana,Consumer,2022-02-16
+10085,Customer 0085,Bengaluru,Karnataka,Small Business,2022-12-30
+10086,Customer 0086,Bengaluru,Karnataka,Corporate,2024-04-12
+10087,Customer 0087,Chandigarh,Punjab,Consumer,2023-09-13
+10088,Customer 0088,Jaipur,Rajasthan,Consumer,2022-03-31
+10089,Customer 0089,Hyderabad,Telangana,Consumer,2024-01-24
+10090,Customer 0090,Hyderabad,Telangana,Consumer,2024-01-30
+10091,Customer 0091,Delhi,Delhi,Small Business,2023-12-22
+10092,Customer 0092,Hyderabad,Telangana,Consumer,2024-03-23
+10093,Customer 0093,Hyderabad,Telangana,Consumer,2022-08-04
+10094,Customer 0094,Delhi,Delhi,Corporate,2024-05-31
+10095,Customer 0095,Kolkata,West Bengal,Consumer,2022-10-16
+10096,Customer 0096,Jaipur,Rajasthan,Consumer,2023-12-23
+10097,Customer 0097,Ludhiana,Punjab,Corporate,2023-06-06
+10098,Customer 0098,Bengaluru,Karnataka,Corporate,2023-12-03
+10099,Customer 0099,Bengaluru,Karnataka,Small Business,2023-07-20
+10100,Customer 0100,Ludhiana,Punjab,Corporate,2023-08-02
+10101,Customer 0101,Hyderabad,Telangana,Consumer,2023-07-09
+10102,Customer 0102,Ludhiana,Punjab,Corporate,2023-12-03
+10103,Customer 0103,Hyderabad,Telangana,Small Business,2023-10-28
+10104,Customer 0104,Chandigarh,Punjab,Corporate,2022-05-02
+10105,Customer 0105,Hyderabad,Telangana,Small Business,2024-01-14
+10106,Customer 0106,Hyderabad,Telangana,Corporate,2023-04-28
+10107,Customer 0107,Hyderabad,Telangana,Small Business,2022-10-18
+10108,Customer 0108,Bengaluru,Karnataka,Consumer,2023-04-08
+10109,Customer 0109,Delhi,Delhi,Corporate,2024-05-20
+10110,Customer 0110,Bengaluru,Karnataka,Consumer,2024-02-11
+10111,Customer 0111,Jaipur,Rajasthan,Consumer,2024-01-21
+10112,Customer 0112,Hyderabad,Telangana,Corporate,2023-02-21
+10113,Customer 0113,Pune,Maharashtra,Small Business,2023-12-07
+10114,Customer 0114,Delhi,Delhi,Small Business,2022-12-13
+10115,Customer 0115,Pune,Maharashtra,Consumer,2023-09-10
+10116,Customer 0116,Pune,Maharashtra,Corporate,2023-07-30
+10117,Customer 0117,Chandigarh,Punjab,Corporate,2022-08-13
+10118,Customer 0118,Ludhiana,Punjab,Consumer,2022-08-28
+10119,Customer 0119,Ludhiana,Punjab,Consumer,2022-02-25
+10120,Customer 0120,Chandigarh,Punjab,Consumer,2022-05-06
+10121,Customer 0121,Delhi,Delhi,Corporate,2023-01-26
+10122,Customer 0122,Bengaluru,Karnataka,Consumer,2023-03-07
+10123,Customer 0123,Bengaluru,Karnataka,Small Business,2022-05-29
+10124,Customer 0124,Delhi,Delhi,Consumer,2023-01-11
+10125,Customer 0125,Hyderabad,Telangana,Small Business,2023-06-28
+10126,Customer 0126,Pune,Maharashtra,Consumer,2022-07-29
+10127,Customer 0127,Chandigarh,Punjab,Corporate,2022-11-01
+10128,Customer 0128,Hyderabad,Telangana,Consumer,2022-11-27
+10129,Customer 0129,Pune,Maharashtra,Consumer,2023-03-31
+10130,Customer 0130,Bengaluru,Karnataka,Small Business,2022-11-26
+10131,Customer 0131,Pune,Maharashtra,Small Business,2023-10-26
+10132,Customer 0132,Pune,Maharashtra,Small Business,2022-10-22
+10133,Customer 0133,Chandigarh,Punjab,Consumer,2023-01-26
+10134,Customer 0134,Pune,Maharashtra,Consumer,2022-12-08
+10135,Customer 0135,Hyderabad,Telangana,Consumer,2022-06-14
+10136,Customer 0136,Jaipur,Rajasthan,Consumer,2023-09-10
+10137,Customer 0137,Pune,Maharashtra,Corporate,2022-07-31
+10138,Customer 0138,Chandigarh,Punjab,Corporate,2022-09-25
+10139,Customer 0139,Jaipur,Rajasthan,Corporate,2023-12-15
+10140,Customer 0140,Delhi,Delhi,Small Business,2024-05-03
+10141,Customer 0141,Kolkata,West Bengal,Corporate,2023-08-27
+10142,Customer 0142,Ludhiana,Punjab,Small Business,2024-04-04
+10143,Customer 0143,Jaipur,Rajasthan,Consumer,2024-02-08
+10144,Customer 0144,Delhi,Delhi,Consumer,2023-03-09
+10145,Customer 0145,Kolkata,West Bengal,Corporate,2023-11-25
+10146,Customer 0146,Hyderabad,Telangana,Small Business,2022-10-23
+10147,Customer 0147,Chandigarh,Punjab,Consumer,2023-02-19
+10148,Customer 0148,Ludhiana,Punjab,Consumer,2023-04-27
+10149,Customer 0149,Hyderabad,Telangana,Corporate,2024-05-14
+10150,Customer 0150,Chandigarh,Punjab,Consumer,2024-02-03
+10151,Customer 0151,Hyderabad,Telangana,Consumer,2023-03-17
+10152,Customer 0152,Jaipur,Rajasthan,Small Business,2023-08-11
+10153,Customer 0153,Kolkata,West Bengal,Corporate,2022-07-02
+10154,Customer 0154,Jaipur,Rajasthan,Consumer,2023-12-25
+10155,Customer 0155,Delhi,Delhi,Small Business,2023-05-13
+10156,Customer 0156,Bengaluru,Karnataka,Consumer,2023-04-25
+10157,Customer 0157,Ludhiana,Punjab,Small Business,2023-11-21
+10158,Customer 0158,Pune,Maharashtra,Consumer,2023-07-24
+10159,Customer 0159,Pune,Maharashtra,Corporate,2022-03-07
+10160,Customer 0160,Hyderabad,Telangana,Consumer,2022-09-17
+10161,Customer 0161,Kolkata,West Bengal,Consumer,2022-06-09
+10162,Customer 0162,Bengaluru,Karnataka,Small Business,2023-10-24
+10163,Customer 0163,Delhi,Delhi,Consumer,2022-02-01
+10164,Customer 0164,Delhi,Delhi,Consumer,2022-07-02
+10165,Customer 0165,Delhi,Delhi,Consumer,2023-06-22
+10166,Customer 0166,Hyderabad,Telangana,Corporate,2023-09-18
+10167,Customer 0167,Jaipur,Rajasthan,Small Business,2023-03-29
+10168,Customer 0168,Ludhiana,Punjab,Small Business,2024-02-14
+10169,Customer 0169,Jaipur,Rajasthan,Consumer,2024-04-07
+10170,Customer 0170,Chandigarh,Punjab,Consumer,2022-04-29
+10171,Customer 0171,Chandigarh,Punjab,Consumer,2024-05-07
+10172,Customer 0172,Chandigarh,Punjab,Consumer,2023-07-07
+10173,Customer 0173,Hyderabad,Telangana,Small Business,2023-07-27
+10174,Customer 0174,Bengaluru,Karnataka,Corporate,2022-03-27
+10175,Customer 0175,Bengaluru,Karnataka,Corporate,2023-07-14
+10176,Customer 0176,Delhi,Delhi,Consumer,2023-10-16
+10177,Customer 0177,Bengaluru,Karnataka,Small Business,2023-06-07
+10178,Customer 0178,Ludhiana,Punjab,Consumer,2022-03-18
+10179,Customer 0179,Kolkata,West Bengal,Consumer,2023-04-16
+10180,Customer 0180,Pune,Maharashtra,Consumer,2024-04-22
+10181,Customer 0181,Kolkata,West Bengal,Consumer,2023-10-14
+10182,Customer 0182,Ludhiana,Punjab,Consumer,2022-05-04
+10183,Customer 0183,Delhi,Delhi,Consumer,2024-05-13
+10184,Customer 0184,Bengaluru,Karnataka,Consumer,2024-05-12
+10185,Customer 0185,Delhi,Delhi,Corporate,2022-06-02
+10186,Customer 0186,Delhi,Delhi,Consumer,2023-12-22
+10187,Customer 0187,Ludhiana,Punjab,Consumer,2023-01-02
+10188,Customer 0188,Delhi,Delhi,Small Business,2023-06-19
+10189,Customer 0189,Ludhiana,Punjab,Corporate,2023-02-05
+10190,Customer 0190,Jaipur,Rajasthan,Consumer,2023-12-06
+10191,Customer 0191,Bengaluru,Karnataka,Consumer,2024-06-15
+10192,Customer 0192,Bengaluru,Karnataka,Small Business,2023-12-17
+10193,Customer 0193,Pune,Maharashtra,Consumer,2024-04-18
+10194,Customer 0194,Jaipur,Rajasthan,Consumer,2024-05-01
+10195,Customer 0195,Kolkata,West Bengal,Small Business,2022-03-23
+10196,Customer 0196,Chandigarh,Punjab,Consumer,2022-08-17
+10197,Customer 0197,Jaipur,Rajasthan,Corporate,2023-10-12
+10198,Customer 0198,Chandigarh,Punjab,Corporate,2023-06-16
+10199,Customer 0199,Jaipur,Rajasthan,Corporate,2022-02-15
+10200,Customer 0200,Kolkata,West Bengal,Consumer,2022-03-27
+10201,Customer 0201,Jaipur,Rajasthan,Consumer,2023-04-14
+10202,Customer 0202,Kolkata,West Bengal,Consumer,2023-07-09
+10203,Customer 0203,Delhi,Delhi,Consumer,2022-05-31
+10204,Customer 0204,Bengaluru,Karnataka,Small Business,2022-06-04
+10205,Customer 0205,Delhi,Delhi,Consumer,2022-04-27
+10206,Customer 0206,Jaipur,Rajasthan,Consumer,2023-05-24
+10207,Customer 0207,Hyderabad,Telangana,Corporate,2022-01-08
+10208,Customer 0208,Kolkata,West Bengal,Corporate,2023-05-31
+10209,Customer 0209,Jaipur,Rajasthan,Consumer,2023-03-05
+10210,Customer 0210,Hyderabad,Telangana,Consumer,2023-02-24
+10211,Customer 0211,Jaipur,Rajasthan,Small Business,2023-09-04
+10212,Customer 0212,Bengaluru,Karnataka,Corporate,2023-04-16
+10213,Customer 0213,Hyderabad,Telangana,Small Business,2023-10-17
+10214,Customer 0214,Delhi,Delhi,Small Business,2023-11-19
+10215,Customer 0215,Bengaluru,Karnataka,Corporate,2024-04-08
+10216,Customer 0216,Jaipur,Rajasthan,Consumer,2023-12-21
+10217,Customer 0217,Chandigarh,Punjab,Consumer,2023-04-11
+10218,Customer 0218,Chandigarh,Punjab,Consumer,2023-03-19
+10219,Customer 0219,Delhi,Delhi,Corporate,2022-08-01
+10220,Customer 0220,Kolkata,West Bengal,Small Business,2023-06-24
+10221,Customer 0221,Ludhiana,Punjab,Consumer,2022-05-06
+10222,Customer 0222,Delhi,Delhi,Consumer,2024-04-18
+10223,Customer 0223,Bengaluru,Karnataka,Consumer,2024-01-31
+10224,Customer 0224,Ludhiana,Punjab,Small Business,2022-04-18
+10225,Customer 0225,Bengaluru,Karnataka,Consumer,2023-12-09
+10226,Customer 0226,Jaipur,Rajasthan,Consumer,2022-04-16
+10227,Customer 0227,Hyderabad,Telangana,Consumer,2023-10-12
+10228,Customer 0228,Pune,Maharashtra,Consumer,2022-03-20
+10229,Customer 0229,Pune,Maharashtra,Consumer,2023-03-16
+10230,Customer 0230,Ludhiana,Punjab,Consumer,2023-08-16
+10231,Customer 0231,Delhi,Delhi,Consumer,2023-10-18
+10232,Customer 0232,Hyderabad,Telangana,Consumer,2023-01-12
+10233,Customer 0233,Chandigarh,Punjab,Consumer,2024-04-09
+10234,Customer 0234,Hyderabad,Telangana,Consumer,2023-11-28
+10235,Customer 0235,Delhi,Delhi,Consumer,2022-07-07
+10236,Customer 0236,Bengaluru,Karnataka,Corporate,2023-08-28
+10237,Customer 0237,Bengaluru,Karnataka,Consumer,2023-10-20
+10238,Customer 0238,Delhi,Delhi,Consumer,2022-10-28
+10239,Customer 0239,Jaipur,Rajasthan,Consumer,2023-10-27
+10240,Customer 0240,Bengaluru,Karnataka,Consumer,2024-03-19
+10241,Customer 0241,Ludhiana,Punjab,Consumer,2024-01-06
+10242,Customer 0242,Pune,Maharashtra,Consumer,2023-11-18
+10243,Customer 0243,Chandigarh,Punjab,Small Business,2023-07-26
+10244,Customer 0244,Bengaluru,Karnataka,Consumer,2022-09-01
+10245,Customer 0245,Bengaluru,Karnataka,Consumer,2023-12-17
+10246,Customer 0246,Chandigarh,Punjab,Consumer,2022-11-24
+10247,Customer 0247,Hyderabad,Telangana,Consumer,2023-04-24
+10248,Customer 0248,Delhi,Delhi,Consumer,2022-10-10
+10249,Customer 0249,Hyderabad,Telangana,Corporate,2022-10-09
+10250,Customer 0250,Chandigarh,Punjab,Small Business,2022-05-22
+10251,Customer 0251,Ludhiana,Punjab,Consumer,2024-05-15
+10252,Customer 0252,Delhi,Delhi,Consumer,2022-05-14
+10253,Customer 0253,Ludhiana,Punjab,Consumer,2022-03-19
+10254,Customer 0254,Jaipur,Rajasthan,Consumer,2024-04-22
+10255,Customer 0255,Bengaluru,Karnataka,Corporate,2023-05-15
+10256,Customer 0256,Ludhiana,Punjab,Consumer,2023-01-30
+10257,Customer 0257,Bengaluru,Karnataka,Consumer,2023-10-26
+10258,Customer 0258,Chandigarh,Punjab,Small Business,2022-12-11
+10259,Customer 0259,Ludhiana,Punjab,Consumer,2022-04-26
+10260,Customer 0260,Pune,Maharashtra,Consumer,2023-10-19
+10261,Customer 0261,Hyderabad,Telangana,Corporate,2022-06-08
+10262,Customer 0262,Ludhiana,Punjab,Consumer,2023-05-13
+10263,Customer 0263,Jaipur,Rajasthan,Consumer,2024-05-04
+10264,Customer 0264,Kolkata,West Bengal,Consumer,2024-04-22
+10265,Customer 0265,Kolkata,West Bengal,Small Business,2022-11-21
+10266,Customer 0266,Pune,Maharashtra,Consumer,2023-12-04
+10267,Customer 0267,Delhi,Delhi,Consumer,2023-07-06
+10268,Customer 0268,Jaipur,Rajasthan,Consumer,2023-03-08
+10269,Customer 0269,Pune,Maharashtra,Consumer,2022-05-06
+10270,Customer 0270,Pune,Maharashtra,Corporate,2022-12-05
+10271,Customer 0271,Jaipur,Rajasthan,Consumer,2023-08-10
+10272,Customer 0272,Chandigarh,Punjab,Consumer,2024-06-06
+10273,Customer 0273,Ludhiana,Punjab,Corporate,2022-01-05
+10274,Customer 0274,Kolkata,West Bengal,Small Business,2023-10-08
+10275,Customer 0275,Delhi,Delhi,Consumer,2024-02-01
+10276,Customer 0276,Delhi,Delhi,Small Business,2024-05-06
+10277,Customer 0277,Delhi,Delhi,Corporate,2023-01-17
+10278,Customer 0278,Hyderabad,Telangana,Consumer,2022-04-17
+10279,Customer 0279,Chandigarh,Punjab,Corporate,2022-09-01
+10280,Customer 0280,Chandigarh,Punjab,Small Business,2024-02-05
+10281,Customer 0281,Jaipur,Rajasthan,Consumer,2024-03-01
+10282,Customer 0282,Delhi,Delhi,Small Business,2023-07-28
+10283,Customer 0283,Bengaluru,Karnataka,Consumer,2022-04-21
+10284,Customer 0284,Delhi,Delhi,Corporate,2022-04-20
+10285,Customer 0285,Delhi,Delhi,Small Business,2023-03-07
+10286,Customer 0286,Kolkata,West Bengal,Consumer,2023-06-14
+10287,Customer 0287,Ludhiana,Punjab,Small Business,2022-01-30
+10288,Customer 0288,Pune,Maharashtra,Consumer,2023-09-10
+10289,Customer 0289,Pune,Maharashtra,Corporate,2023-05-06
+10290,Customer 0290,Delhi,Delhi,Corporate,2022-01-12
+10291,Customer 0291,Hyderabad,Telangana,Consumer,2022-03-28
+10292,Customer 0292,Jaipur,Rajasthan,Consumer,2023-02-13
+10293,Customer 0293,Kolkata,West Bengal,Consumer,2023-10-13
+10294,Customer 0294,Jaipur,Rajasthan,Consumer,2024-01-13
+10295,Customer 0295,Pune,Maharashtra,Consumer,2023-01-24
+10296,Customer 0296,Pune,Maharashtra,Consumer,2022-09-23
+10297,Customer 0297,Hyderabad,Telangana,Consumer,2024-05-21
+10298,Customer 0298,Delhi,Delhi,Consumer,2023-02-17
+10299,Customer 0299,Jaipur,Rajasthan,Corporate,2022-10-11
+10300,Customer 0300,Chandigarh,Punjab,Corporate,2023-02-03
+10301,Customer 0301,Jaipur,Rajasthan,Corporate,2022-01-11
+10302,Customer 0302,Hyderabad,Telangana,Consumer,2022-09-29
+10303,Customer 0303,Chandigarh,Punjab,Small Business,2023-04-09
+10304,Customer 0304,Kolkata,West Bengal,Corporate,2024-04-06
+10305,Customer 0305,Pune,Maharashtra,Consumer,2023-10-27
+10306,Customer 0306,Ludhiana,Punjab,Consumer,2023-12-05
+10307,Customer 0307,Jaipur,Rajasthan,Corporate,2023-05-06
+10308,Customer 0308,Pune,Maharashtra,Consumer,2022-04-10
+10309,Customer 0309,Jaipur,Rajasthan,Consumer,2022-12-18
+10310,Customer 0310,Chandigarh,Punjab,Small Business,2024-06-16
+10311,Customer 0311,Bengaluru,Karnataka,Consumer,2022-02-09
+10312,Customer 0312,Bengaluru,Karnataka,Consumer,2024-03-02
+10313,Customer 0313,Chandigarh,Punjab,Small Business,2023-09-09
+10314,Customer 0314,Jaipur,Rajasthan,Corporate,2022-09-13
+10315,Customer 0315,Ludhiana,Punjab,Consumer,2023-12-02
+10316,Customer 0316,Bengaluru,Karnataka,Small Business,2024-01-24
+10317,Customer 0317,Bengaluru,Karnataka,Small Business,2022-02-08
+10318,Customer 0318,Bengaluru,Karnataka,Consumer,2022-04-06
+10319,Customer 0319,Kolkata,West Bengal,Corporate,2023-08-23
+10320,Customer 0320,Hyderabad,Telangana,Consumer,2024-06-18
+10321,Customer 0321,Jaipur,Rajasthan,Consumer,2022-01-22
+10322,Customer 0322,Chandigarh,Punjab,Corporate,2023-08-23
+10323,Customer 0323,Pune,Maharashtra,Consumer,2022-05-03
+10324,Customer 0324,Kolkata,West Bengal,Corporate,2023-08-09
+10325,Customer 0325,Kolkata,West Bengal,Small Business,2023-07-15
+10326,Customer 0326,Ludhiana,Punjab,Consumer,2022-03-23
+10327,Customer 0327,Ludhiana,Punjab,Corporate,2023-09-05
+10328,Customer 0328,Chandigarh,Punjab,Consumer,2024-03-18
+10329,Customer 0329,Ludhiana,Punjab,Small Business,2024-02-17
+10330,Customer 0330,Pune,Maharashtra,Consumer,2022-01-27
+10331,Customer 0331,Pune,Maharashtra,Corporate,2022-08-10
+10332,Customer 0332,Jaipur,Rajasthan,Consumer,2022-08-05
+10333,Customer 0333,Jaipur,Rajasthan,Consumer,2023-02-12
+10334,Customer 0334,Hyderabad,Telangana,Corporate,2022-05-09
+10335,Customer 0335,Delhi,Delhi,Corporate,2024-02-08
+10336,Customer 0336,Hyderabad,Telangana,Consumer,2023-12-01
+10337,Customer 0337,Kolkata,West Bengal,Corporate,2023-12-29
+10338,Customer 0338,Jaipur,Rajasthan,Small Business,2022-06-28
+10339,Customer 0339,Ludhiana,Punjab,Consumer,2022-01-14
+10340,Customer 0340,Kolkata,West Bengal,Consumer,2024-03-30
+10341,Customer 0341,Bengaluru,Karnataka,Consumer,2022-09-18
+10342,Customer 0342,Jaipur,Rajasthan,Corporate,2023-08-14
+10343,Customer 0343,Pune,Maharashtra,Consumer,2024-03-29
+10344,Customer 0344,Pune,Maharashtra,Consumer,2022-02-02
+10345,Customer 0345,Kolkata,West Bengal,Consumer,2022-01-05
+10346,Customer 0346,Jaipur,Rajasthan,Small Business,2022-01-05
+10347,Customer 0347,Kolkata,West Bengal,Consumer,2022-05-21
+10348,Customer 0348,Kolkata,West Bengal,Corporate,2022-02-16
+10349,Customer 0349,Ludhiana,Punjab,Consumer,2024-01-08
+10350,Customer 0350,Ludhiana,Punjab,Small Business,2023-06-30
+10351,Customer 0351,Pune,Maharashtra,Consumer,2024-06-01
+10352,Customer 0352,Chandigarh,Punjab,Consumer,2023-12-23
+10353,Customer 0353,Jaipur,Rajasthan,Small Business,2024-05-16
+10354,Customer 0354,Delhi,Delhi,Small Business,2022-08-03
+10355,Customer 0355,Kolkata,West Bengal,Consumer,2022-09-17
+10356,Customer 0356,Kolkata,West Bengal,Consumer,2024-02-04
+10357,Customer 0357,Ludhiana,Punjab,Corporate,2022-08-09
+10358,Customer 0358,Kolkata,West Bengal,Small Business,2022-02-21
+10359,Customer 0359,Chandigarh,Punjab,Consumer,2023-08-26
+10360,Customer 0360,Bengaluru,Karnataka,Consumer,2023-12-22
+10361,Customer 0361,Hyderabad,Telangana,Corporate,2024-05-21
+10362,Customer 0362,Kolkata,West Bengal,Corporate,2024-04-15
+10363,Customer 0363,Ludhiana,Punjab,Corporate,2022-04-19
+10364,Customer 0364,Kolkata,West Bengal,Consumer,2023-11-26
+10365,Customer 0365,Chandigarh,Punjab,Consumer,2024-02-01
+10366,Customer 0366,Pune,Maharashtra,Small Business,2023-09-21
+10367,Customer 0367,Delhi,Delhi,Small Business,2024-01-08
+10368,Customer 0368,Jaipur,Rajasthan,Corporate,2024-01-25
+10369,Customer 0369,Chandigarh,Punjab,Consumer,2023-02-06
+10370,Customer 0370,Hyderabad,Telangana,Consumer,2022-02-06
+10371,Customer 0371,Jaipur,Rajasthan,Corporate,2023-02-15
+10372,Customer 0372,Bengaluru,Karnataka,Consumer,2022-07-01
+10373,Customer 0373,Delhi,Delhi,Small Business,2022-04-13
+10374,Customer 0374,Jaipur,Rajasthan,Consumer,2022-04-23
+10375,Customer 0375,Kolkata,West Bengal,Corporate,2023-09-20
+10376,Customer 0376,Chandigarh,Punjab,Small Business,2023-03-31
+10377,Customer 0377,Bengaluru,Karnataka,Consumer,2023-05-01
+10378,Customer 0378,Bengaluru,Karnataka,Consumer,2023-11-02
+10379,Customer 0379,Delhi,Delhi,Corporate,2023-05-09
+10380,Customer 0380,Jaipur,Rajasthan,Corporate,2023-07-22
+10381,Customer 0381,Chandigarh,Punjab,Consumer,2022-03-19
+10382,Customer 0382,Kolkata,West Bengal,Corporate,2024-02-06
+10383,Customer 0383,Kolkata,West Bengal,Small Business,2023-02-08
+10384,Customer 0384,Ludhiana,Punjab,Consumer,2022-05-20
+10385,Customer 0385,Chandigarh,Punjab,Consumer,2024-01-02
+10386,Customer 0386,Chandigarh,Punjab,Consumer,2023-10-24
+10387,Customer 0387,Chandigarh,Punjab,Consumer,2022-02-17
+10388,Customer 0388,Hyderabad,Telangana,Consumer,2022-06-23
+10389,Customer 0389,Kolkata,West Bengal,Consumer,2022-01-15
+10390,Customer 0390,Ludhiana,Punjab,Corporate,2022-09-01
+10391,Customer 0391,Bengaluru,Karnataka,Consumer,2022-03-31
+10392,Customer 0392,Ludhiana,Punjab,Small Business,2023-10-01
+10393,Customer 0393,Jaipur,Rajasthan,Consumer,2023-04-16
+10394,Customer 0394,Pune,Maharashtra,Consumer,2024-06-01
+10395,Customer 0395,Bengaluru,Karnataka,Corporate,2023-11-06
+10396,Customer 0396,Hyderabad,Telangana,Small Business,2023-07-05
+10397,Customer 0397,Chandigarh,Punjab,Consumer,2023-04-04
+10398,Customer 0398,Ludhiana,Punjab,Consumer,2022-02-19
+10399,Customer 0399,Jaipur,Rajasthan,Consumer,2022-03-05
+10400,Customer 0400,Jaipur,Rajasthan,Consumer,2023-07-09
+10401,Customer 0401,Kolkata,West Bengal,Consumer,2022-01-04
+10402,Customer 0402,Hyderabad,Telangana,Consumer,2022-02-08
+10403,Customer 0403,Jaipur,Rajasthan,Consumer,2022-07-17
+10404,Customer 0404,Kolkata,West Bengal,Consumer,2024-03-06
+10405,Customer 0405,Delhi,Delhi,Small Business,2023-02-18
+10406,Customer 0406,Pune,Maharashtra,Corporate,2023-10-01
+10407,Customer 0407,Delhi,Delhi,Consumer,2023-01-06
+10408,Customer 0408,Ludhiana,Punjab,Consumer,2022-06-05
+10409,Customer 0409,Kolkata,West Bengal,Consumer,2022-12-01
+10410,Customer 0410,Chandigarh,Punjab,Consumer,2022-03-24
+10411,Customer 0411,Ludhiana,Punjab,Corporate,2023-11-25
+10412,Customer 0412,Ludhiana,Punjab,Small Business,2022-06-15
+10413,Customer 0413,Jaipur,Rajasthan,Small Business,2022-12-05
+10414,Customer 0414,Ludhiana,Punjab,Small Business,2024-06-01
+10415,Customer 0415,Chandigarh,Punjab,Small Business,2023-06-17
+10416,Customer 0416,Bengaluru,Karnataka,Small Business,2023-02-17
+10417,Customer 0417,Kolkata,West Bengal,Consumer,2023-05-04
+10418,Customer 0418,Chandigarh,Punjab,Consumer,2023-12-07
+10419,Customer 0419,Jaipur,Rajasthan,Consumer,2022-08-18
+10420,Customer 0420,Pune,Maharashtra,Consumer,2023-07-27
+10421,Customer 0421,Kolkata,West Bengal,Consumer,2024-02-25
+10422,Customer 0422,Bengaluru,Karnataka,Small Business,2023-05-31
+10423,Customer 0423,Hyderabad,Telangana,Corporate,2023-02-06
+10424,Customer 0424,Pune,Maharashtra,Consumer,2022-05-11
+10425,Customer 0425,Delhi,Delhi,Consumer,2022-08-12
+10426,Customer 0426,Ludhiana,Punjab,Consumer,2024-05-01
+10427,Customer 0427,Hyderabad,Telangana,Consumer,2023-05-03
+10428,Customer 0428,Hyderabad,Telangana,Small Business,2022-09-29
+10429,Customer 0429,Chandigarh,Punjab,Corporate,2023-01-12
+10430,Customer 0430,Bengaluru,Karnataka,Corporate,2023-06-05
+10431,Customer 0431,Chandigarh,Punjab,Consumer,2023-04-29
+10432,Customer 0432,Bengaluru,Karnataka,Consumer,2023-09-22
+10433,Customer 0433,Hyderabad,Telangana,Consumer,2022-08-20
+10434,Customer 0434,Ludhiana,Punjab,Corporate,2023-08-08
+10435,Customer 0435,Delhi,Delhi,Corporate,2023-02-03
+10436,Customer 0436,Chandigarh,Punjab,Consumer,2024-04-26
+10437,Customer 0437,Pune,Maharashtra,Small Business,2022-05-23
+10438,Customer 0438,Kolkata,West Bengal,Consumer,2022-05-14
+10439,Customer 0439,Chandigarh,Punjab,Small Business,2023-02-20
+10440,Customer 0440,Delhi,Delhi,Consumer,2023-04-03
+10441,Customer 0441,Kolkata,West Bengal,Consumer,2023-09-14
+10442,Customer 0442,Jaipur,Rajasthan,Small Business,2022-12-30
+10443,Customer 0443,Ludhiana,Punjab,Consumer,2024-04-02
+10444,Customer 0444,Delhi,Delhi,Consumer,2023-03-03
+10445,Customer 0445,Pune,Maharashtra,Consumer,2022-04-27
+10446,Customer 0446,Bengaluru,Karnataka,Consumer,2022-04-18
+10447,Customer 0447,Jaipur,Rajasthan,Corporate,2024-05-26
+10448,Customer 0448,Kolkata,West Bengal,Small Business,2022-05-01
+10449,Customer 0449,Pune,Maharashtra,Small Business,2024-05-03
+10450,Customer 0450,Jaipur,Rajasthan,Consumer,2022-09-08
+10451,Customer 0451,Kolkata,West Bengal,Consumer,2022-03-26
+10452,Customer 0452,Kolkata,West Bengal,Consumer,2022-10-02
+10453,Customer 0453,Delhi,Delhi,Consumer,2023-07-08
+10454,Customer 0454,Chandigarh,Punjab,Consumer,2023-01-21
+10455,Customer 0455,Pune,Maharashtra,Small Business,2023-12-09
+10456,Customer 0456,Pune,Maharashtra,Small Business,2023-07-04
+10457,Customer 0457,Ludhiana,Punjab,Corporate,2022-12-27
+10458,Customer 0458,Bengaluru,Karnataka,Consumer,2023-07-26
+10459,Customer 0459,Hyderabad,Telangana,Consumer,2024-05-24
+10460,Customer 0460,Chandigarh,Punjab,Consumer,2023-01-06
+10461,Customer 0461,Bengaluru,Karnataka,Consumer,2022-05-19
+10462,Customer 0462,Ludhiana,Punjab,Consumer,2023-01-03
+10463,Customer 0463,Bengaluru,Karnataka,Consumer,2024-01-27
+10464,Customer 0464,Delhi,Delhi,Consumer,2022-07-15
+10465,Customer 0465,Chandigarh,Punjab,Small Business,2024-05-04
+10466,Customer 0466,Kolkata,West Bengal,Consumer,2023-06-14
+10467,Customer 0467,Ludhiana,Punjab,Small Business,2023-06-26
+10468,Customer 0468,Pune,Maharashtra,Consumer,2022-10-13
+10469,Customer 0469,Ludhiana,Punjab,Consumer,2024-04-08
+10470,Customer 0470,Kolkata,West Bengal,Consumer,2022-02-02
+10471,Customer 0471,Bengaluru,Karnataka,Consumer,2022-09-26
+10472,Customer 0472,Hyderabad,Telangana,Consumer,2023-01-12
+10473,Customer 0473,Delhi,Delhi,Consumer,2023-03-06
+10474,Customer 0474,Delhi,Delhi,Small Business,2023-03-03
+10475,Customer 0475,Bengaluru,Karnataka,Consumer,2022-05-14
+10476,Customer 0476,Hyderabad,Telangana,Corporate,2022-07-23
+10477,Customer 0477,Hyderabad,Telangana,Consumer,2022-03-27
+10478,Customer 0478,Chandigarh,Punjab,Consumer,2023-05-31
+10479,Customer 0479,Bengaluru,Karnataka,Consumer,2022-11-12
+10480,Customer 0480,Chandigarh,Punjab,Consumer,2023-05-25
+10481,Customer 0481,Jaipur,Rajasthan,Small Business,2023-06-15
+10482,Customer 0482,Hyderabad,Telangana,Small Business,2023-09-24
+10483,Customer 0483,Jaipur,Rajasthan,Corporate,2023-05-08
+10484,Customer 0484,Hyderabad,Telangana,Consumer,2023-08-07
+10485,Customer 0485,Delhi,Delhi,Consumer,2023-06-13
+10486,Customer 0486,Ludhiana,Punjab,Small Business,2023-08-11
+10487,Customer 0487,Jaipur,Rajasthan,Consumer,2023-07-09
+10488,Customer 0488,Pune,Maharashtra,Consumer,2022-10-12
+10489,Customer 0489,Hyderabad,Telangana,Consumer,2022-08-10
+10490,Customer 0490,Pune,Maharashtra,Corporate,2023-12-10
+10491,Customer 0491,Kolkata,West Bengal,Corporate,2022-11-05
+10492,Customer 0492,Hyderabad,Telangana,Corporate,2023-05-10
+10493,Customer 0493,Hyderabad,Telangana,Corporate,2022-06-27
+10494,Customer 0494,Pune,Maharashtra,Consumer,2023-01-24
+10495,Customer 0495,Jaipur,Rajasthan,Small Business,2023-04-22
+10496,Customer 0496,Delhi,Delhi,Consumer,2023-07-18
+10497,Customer 0497,Chandigarh,Punjab,Corporate,2023-04-19
+10498,Customer 0498,Jaipur,Rajasthan,Consumer,2022-11-21
+10499,Customer 0499,Kolkata,West Bengal,Small Business,2024-05-15
+10500,Customer 0500,Delhi,Delhi,Consumer,2023-04-07
