@@ -1,0 +1,16 @@
+[project]
+name = "sales-data-warehouse"
+version = "0.1.0"
+description = "Deterministic sample data and SQL Server warehouse exercises"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=9,<10"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = [
+    "integration: requires a running SQL Server instance",
+]

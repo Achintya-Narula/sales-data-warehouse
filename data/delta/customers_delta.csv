@@ -1,0 +1,31 @@
+customer_id,customer_name,city,state,segment,signup_date
+C0001,Customer 0001,Ahmedabad,Gujarat,Corporate,2022-01-26
+C0002,Customer 0002,Hyderabad,Telangana,Corporate,2022-08-17
+C0003,Customer 0003,Chennai,Tamil Nadu,Consumer,2022-04-15
+C0004,Customer 0004,Ahmedabad,Gujarat,Consumer,2023-07-13
+C0005,Customer 0005,Chandigarh,Chandigarh,Consumer,2023-03-09
+C0006,Customer 0006,Bengaluru,Karnataka,Corporate,2022-04-06
+C0007,Customer 0007,Delhi,Delhi,Corporate,2023-06-02
+C0008,Customer 0008,Pune,Maharashtra,Corporate,2023-07-29
+C0009,Customer 0009,Delhi,Delhi,Consumer,2023-10-28
+C0010,Customer 0010,Mumbai,Maharashtra,Small Business,2022-08-14
+C0011,Customer 0011,Kolkata,West Bengal,Consumer,2022-10-12
+C0012,Customer 0012,Bengaluru,Karnataka,Corporate,2023-12-16
+C0013,Customer 0013,Kochi,Kerala,Small Business,2022-10-12
+C0014,Customer 0014,Chennai,Tamil Nadu,Corporate,2022-12-11
+C0015,Customer 0015,Chandigarh,Chandigarh,Corporate,2023-01-25
+C0016,Customer 0016,Chandigarh,Chandigarh,Small Business,2022-12-19
+C0017,Customer 0017,Pune,Maharashtra,Small Business,2022-02-14
+C0018,Customer 0018,Kolkata,West Bengal,Consumer,2022-05-08
+C0019,Customer 0019,Kochi,Kerala,Corporate,2023-07-20
+C0020,Customer 0020,Hyderabad,Telangana,Consumer,2023-09-26
+C0021,Customer 0021,Jaipur,Rajasthan,Consumer,2022-07-16
+C0022,Customer 0022,Chandigarh,Chandigarh,Corporate,2023-11-09
+C0023,Customer 0023,Delhi,Delhi,Small Business,2022-03-23
+C0024,Customer 0024,Delhi,Delhi,Corporate,2023-01-25
+C0025,Customer 0025,Hyderabad,Telangana,Small Business,2023-10-13
+C0026,Customer 0026,Jaipur,Rajasthan,Corporate,2023-01-15
+C0027,Customer 0027,Jaipur,Rajasthan,Corporate,2023-11-18
+C0028,Customer 0028,Hyderabad,Telangana,Consumer,2023-12-01
+C0029,Customer 0029,Ahmedabad,Gujarat,Corporate,2023-09-16
+C0030,Customer 0030,Ahmedabad,Gujarat,Corporate,2023-07-01
