@@ -1,0 +1,20 @@
+Total Revenue =
+SUM ( FactSales[SalesAmount] )
+
+Order Count =
+DISTINCTCOUNT ( FactSales[SaleID] )
+
+Average Order Value =
+DIVIDE ( [Total Revenue], [Order Count] )
+
+Previous Month Revenue =
+CALCULATE (
+    [Total Revenue],
+    DATEADD ( DimDate[FullDate], -1, MONTH )
+)
+
+Revenue MoM % =
+DIVIDE (
+    [Total Revenue] - [Previous Month Revenue],
+    [Previous Month Revenue]
+)
