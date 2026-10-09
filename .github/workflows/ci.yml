@@ -1,0 +1,89 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  SQL_SERVER_IMAGE: mcr.microsoft.com/mssql/server:2022-CU27-ubuntu-22.04@sha256:4402d880dd4c34bfa7d8705e56a86cd6c88da80a1f6bbbe741f999e76264a090
+
+jobs:
+  python-tests:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install project and test dependencies
+        run: python -m pip install --disable-pip-version-check -e ".[dev]"
+
+      - name: Regenerate committed data
+        run: python scripts/generate_data.py --output-root . --seed 42
+
+      - name: Verify generated files are deterministic
+        run: git diff --exit-code -- data
+
+      - name: Validate generated data
+        run: python scripts/validate_data.py --root .
+
+      - name: Run nonintegration tests
+        run: python -m pytest -m "not integration" -q
+
+  sql-server-integration:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install project and test dependencies
+        run: python -m pip install --disable-pip-version-check -e ".[dev]"
+
+      - name: Generate and validate data
+        run: |
+          python scripts/generate_data.py --output-root . --seed 42
+          python scripts/validate_data.py --root .
+
+      - name: Create an ephemeral database password
+        run: echo "WAREHOUSE_SQL_PASSWORD=WarehouseCi_${GITHUB_RUN_ID}_A9!" >> "$GITHUB_ENV"
+
+      - name: Start SQL Server 2022
+        run: |
+          docker run \
+            --name warehouse-sql \
+            --detach \
+            --publish 1433:1433 \
+            --env ACCEPT_EULA=Y \
+            --env MSSQL_SA_PASSWORD="$WAREHOUSE_SQL_PASSWORD" \
+            "$SQL_SERVER_IMAGE"
+
+      - name: Run SQL Server integration
+        env:
+          WAREHOUSE_SQL_HOST: localhost
+          WAREHOUSE_SQL_PORT: "1433"
+          WAREHOUSE_SQL_USER: sa
+          WAREHOUSE_SQL_DATABASE: sales_warehouse_ci_test
+        run: python scripts/run_sql_integration.py
+
+      - name: Print SQL Server logs after failure
+        if: failure()
+        run: docker logs warehouse-sql
+
+      - name: Remove SQL Server container
+        if: always()
+        run: docker rm --force warehouse-sql || true

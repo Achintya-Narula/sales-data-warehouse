@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "sales-data-warehouse"
 version = "0.1.0"
@@ -15,3 +19,6 @@ addopts = "--basetemp=.pytest_cache/tmp"
 markers = [
     "integration: requires a running SQL Server instance",
 ]
+
+[tool.setuptools.packages.find]
+where = ["src"]
