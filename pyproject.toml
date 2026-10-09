@@ -6,7 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "sales-data-warehouse"
 version = "0.1.0"
 description = "Deterministic sample data and SQL Server warehouse exercises"
+readme = "README.md"
 requires-python = ">=3.12"
+license = "MIT"
+authors = [{ name = "Achintya Narula" }]
 dependencies = ["pymssql==2.4.3"]
 
 [project.optional-dependencies]
