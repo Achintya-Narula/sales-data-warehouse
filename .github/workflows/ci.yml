@@ -36,6 +36,9 @@ jobs:
       - name: Validate generated data
         run: python scripts/validate_data.py --root .
 
+      - name: Check Python style
+        run: python -m ruff check src scripts tests
+
       - name: Run nonintegration tests
         run: python -m pytest -m "not integration" -q
 
@@ -78,7 +81,7 @@ jobs:
           WAREHOUSE_SQL_PORT: "1433"
           WAREHOUSE_SQL_USER: sa
           WAREHOUSE_SQL_DATABASE: sales_warehouse_ci_test
-        run: python scripts/run_sql_integration.py
+        run: python -m pytest tests/test_sql_integration.py -q
 
       - name: Print SQL Server logs after failure
         if: failure()

@@ -193,7 +193,9 @@ def _sale_values(rows: Iterable[dict[str, str]]) -> list[tuple[Any, ...]]:
 def _load_base_staging(connection: Any, root: Path) -> None:
     cursor = connection.cursor()
     try:
-        cursor.execute("DELETE FROM stg.Sale; DELETE FROM stg.Product; DELETE FROM stg.Customer;")
+        cursor.execute(
+            "DELETE FROM stg.Sale; DELETE FROM stg.Product; DELETE FROM stg.Customer;"
+        )
         cursor.executemany(
             """
             INSERT INTO stg.Customer
@@ -280,8 +282,12 @@ def _scalar(connection: Any, query: str, column: str) -> int:
 
 
 def run_integration(root: Path, config: SqlConfig) -> IntegrationResult:
-    if not config.database.casefold().endswith("_test"):
-        raise ValueError("WAREHOUSE_SQL_DATABASE must end with '_test'.")
+    if re.fullmatch(
+        r"sales_warehouse_[a-z0-9_]+_test", config.database.casefold()
+    ) is None:
+        raise ValueError(
+            "WAREHOUSE_SQL_DATABASE must match sales_warehouse_<purpose>_test."
+        )
 
     violations = validate_paths(root)
     if violations:
@@ -334,7 +340,8 @@ def run_integration(root: Path, config: SqlConfig) -> IntegrationResult:
 
         if inserted_facts != fact_rows:
             raise RuntimeError(
-                f"Fact procedure inserted {inserted_facts} rows but {fact_rows} rows exist."
+                f"Fact procedure inserted {inserted_facts} rows but "
+                f"{fact_rows} rows exist."
             )
 
         return IntegrationResult(

@@ -3,7 +3,6 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 WORKFLOW = ROOT / ".github" / "workflows" / "ci.yml"
 
@@ -27,6 +26,7 @@ def test_ci_runs_data_and_python_verification() -> None:
 
     assert "python scripts/generate_data.py --output-root . --seed 42" in text
     assert "python scripts/validate_data.py --root ." in text
+    assert "python -m ruff check src scripts tests" in text
     assert 'python -m pytest -m "not integration" -q' in text
 
 
@@ -40,6 +40,6 @@ def test_ci_pins_sql_server_and_runs_the_real_integration() -> None:
     )
     assert "MSSQL_SA_PASSWORD" in text
     assert "WAREHOUSE_SQL_DATABASE: sales_warehouse_ci_test" in text
-    assert "python scripts/run_sql_integration.py" in text
+    assert "python -m pytest tests/test_sql_integration.py -q" in text
     assert "docker logs warehouse-sql" in text
     assert "if: failure()" in text

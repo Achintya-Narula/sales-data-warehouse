@@ -43,7 +43,7 @@ The staging query ranks duplicate business identifiers before the merge, but Pyt
 
 ### Test database safety
 
-The integration runner recreates its target database to begin from a known state. It refuses to do so unless the database name ends with `_test`. The password is accepted through environment variables and never included in readiness errors.
+The integration runner recreates its target database to begin from a known state. It refuses to do so unless the database name matches `sales_warehouse_<purpose>_test`. The password is accepted through environment variables and never included in readiness errors.
 
 ## MERGE boundary
 

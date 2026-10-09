@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 SQL_FILES = [
     "00_create_schema.sql",
@@ -50,7 +49,9 @@ def test_dimensional_integrity_is_explicit() -> None:
     assert "unique (productid)" in dimension_sql
     assert "unique (fulldate)" in dimension_sql
     assert "foreign key (datekey) references dw.dimdate(datekey)" in fact_sql
-    assert "foreign key (customerkey) references dw.dimcustomer(customerkey)" in fact_sql
+    assert (
+        "foreign key (customerkey) references dw.dimcustomer(customerkey)" in fact_sql
+    )
     assert "foreign key (productkey) references dw.dimproduct(productkey)" in fact_sql
     assert "check (quantity > 0)" in fact_sql
     assert "check (salesamount >= 0)" in fact_sql

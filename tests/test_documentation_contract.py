@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
 BUILD_NOTES = ROOT / "docs" / "build-notes.md"
@@ -27,7 +26,12 @@ def test_readme_covers_problem_architecture_setup_evidence_and_limits() -> None:
 def test_readme_records_exact_reproducible_counts_and_commands() -> None:
     text = README.read_text(encoding="utf-8")
 
-    for count in ("500 customers", "60 products", "5,000 sales", "30 changed customers"):
+    for count in (
+        "500 customers",
+        "60 products",
+        "5,000 sales",
+        "30 changed customers",
+    ):
         assert count in text
     assert "python scripts/generate_data.py --output-root . --seed 42" in text
     assert "python scripts/validate_data.py --root ." in text

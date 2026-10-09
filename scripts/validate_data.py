@@ -1,18 +1,17 @@
 from __future__ import annotations
 
 import argparse
-import sys
 from pathlib import Path
 
+from sales_warehouse.validation import validate_paths
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(REPOSITORY_ROOT / "src"))
-
-from sales_warehouse.validation import validate_paths  # noqa: E402
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Validate the generated warehouse CSV files.")
+    parser = argparse.ArgumentParser(
+        description="Validate the generated warehouse CSV files."
+    )
     parser.add_argument("--root", type=Path, default=REPOSITORY_ROOT)
     return parser.parse_args()
 

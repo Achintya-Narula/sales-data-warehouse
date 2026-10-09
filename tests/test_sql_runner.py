@@ -57,7 +57,20 @@ def test_integration_rejects_database_without_test_suffix(tmp_path) -> None:
         database="sales_warehouse",
     )
 
-    with pytest.raises(ValueError, match="must end with '_test'"):
+    with pytest.raises(ValueError, match=r"sales_warehouse_.+_test"):
+        run_integration(tmp_path, unsafe)
+
+
+def test_integration_rejects_unrelated_database_with_test_suffix(tmp_path) -> None:
+    unsafe = SqlConfig(
+        host="sql.example.test",
+        port=1433,
+        user="sa",
+        password="secret-value",
+        database="inventory_test",
+    )
+
+    with pytest.raises(ValueError, match=r"sales_warehouse_.+_test"):
         run_integration(tmp_path, unsafe)
 
 

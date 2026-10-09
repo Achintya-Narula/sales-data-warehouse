@@ -1,15 +1,12 @@
 from __future__ import annotations
 
 import json
-import sys
 from dataclasses import asdict
 from pathlib import Path
 
+from sales_warehouse.sql_runner import SqlConfig, run_integration
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(REPOSITORY_ROOT / "src"))
-
-from sales_warehouse.sql_runner import SqlConfig, run_integration  # noqa: E402
 
 
 def main() -> int:

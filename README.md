@@ -13,7 +13,7 @@ The 30-row customer delta is important to the project. Without it, the dimension
 ## What is included
 
 - Deterministic Python generation for 500 customers, 60 products, 5,000 sales, and 30 changed customers.
-- Validation for duplicate keys, required values, references, dates, quantities, and decimal arithmetic.
+- Validation for expected row counts, identifier formats, duplicate keys, required values, references, dates, quantities, and decimal arithmetic.
 - SQL Server staging, customer, product, date, and sales fact tables.
 - SCD Type 1 customer and product loads with conditional `MERGE` branches.
 - An idempotent fact load that rejects unresolved dimension keys.
@@ -71,6 +71,7 @@ py -3.12 -m venv .venv
 python -m pip install -e ".[dev]"
 python scripts/generate_data.py --output-root . --seed 42
 python scripts/validate_data.py --root .
+python -m ruff check src scripts tests
 python -m pytest -m "not integration" -q
 ```
 
@@ -97,7 +98,7 @@ python scripts/run_sql_integration.py
 docker rm --force warehouse-sql
 ```
 
-The integration command refuses to reset a database unless its name ends with `_test`. This guard keeps the destructive test reset away from ordinary database names.
+The integration command refuses to reset a database unless its name matches `sales_warehouse_<purpose>_test`. This guard keeps the destructive test reset away from unrelated database names.
 
 ## Verification
 
@@ -105,6 +106,7 @@ The integration command refuses to reset a database unless its name ends with `_
 | --- | --- |
 | Same input seed produces the same bytes | `tests/test_generator.py` compares SHA-256 hashes |
 | Generated records satisfy business rules | `tests/test_data_quality.py` and `tests/test_scd_delta.py` |
+| Python source and tests satisfy the configured lint rules | `ruff check` in `.github/workflows/ci.yml` |
 | Required SQL objects and query patterns exist | `tests/test_sql_contracts.py` |
 | Readiness polling is bounded and passwords stay out of errors | `tests/test_sql_runner.py` |
 | SQL runs against a real database engine | `tests/test_sql_integration.py` and `.github/workflows/ci.yml` |

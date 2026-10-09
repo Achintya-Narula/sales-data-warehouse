@@ -7,7 +7,6 @@ import pytest
 
 from sales_warehouse.sql_runner import SqlConfig, run_integration
 
-
 pytestmark = pytest.mark.integration
 
 

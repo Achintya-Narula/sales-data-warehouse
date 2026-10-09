@@ -4,10 +4,9 @@ import csv
 import random
 from dataclasses import asdict, dataclass, fields
 from datetime import date, timedelta
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 from typing import Iterable, TypeVar
-
 
 MONEY = Decimal("0.01")
 START_DATE = date(2024, 1, 1)
@@ -196,7 +195,9 @@ def _write_rows(path: Path, rows: Iterable[Row], row_type: type[Row]) -> None:
         writer = csv.DictWriter(handle, fieldnames=field_names, lineterminator="\n")
         writer.writeheader()
         for row in rows:
-            writer.writerow({key: _serialise(value) for key, value in asdict(row).items()})
+            writer.writerow(
+                {key: _serialise(value) for key, value in asdict(row).items()}
+            )
 
 
 def write_dataset(dataset: GeneratedDataset, root: Path) -> dict[str, Path]:
