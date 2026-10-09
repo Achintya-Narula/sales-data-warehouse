@@ -3,7 +3,7 @@ name = "sales-data-warehouse"
 version = "0.1.0"
 description = "Deterministic sample data and SQL Server warehouse exercises"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["pymssql==2.4.3"]
 
 [project.optional-dependencies]
 dev = ["pytest>=9,<10"]
